@@ -1,0 +1,140 @@
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  .a {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+  }
+  .one {
+    text-align: center;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+  }
+  img {
+    height: 90px;
+    width: 110px;
+    margin: 5px auto;
+  }
+  h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 1.5;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  }
+
+  .content {
+    padding: 24px 24px 24px 12px;
+    background-color: rgba(128, 150, 150, 0.117);
+    height: 550px;
+  }
+
+  .container_data {
+    padding: 0px 12px;
+  }
+
+  .partA {
+    display: block;
+    height: 20px;
+  }
+
+  .partB {
+    margin-bottom: 20px;
+    height: 42.2px;
+  }
+
+  .partB_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .partB_1_1 {
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    margin-top: 10px;
+  }
+
+  a {
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    width: 50%;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 4.8px 13.6px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    white-space: nowrap; 
+  }
+  #a {
+    background-color: #3b7ddd;
+    border-color: #3b7ddd;
+  }
+  #b {
+    background-color: #fcb92c;
+    border-color: #fcb92c;
+  }
+  #c {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+ 
+
+.partC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 61px;
+    width: auto;
+    margin-top: 40px;
+}
+.partC_1{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+    background-color: white;
+    border-radius: 5px;
+    width: 900px;
+}
+.partC_1_1{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    padding: 20px;
+}
+.partC_1_1>div{
+     color: #495057;
+     text-align: center;
+}
+
+@media (max-width:400px){
+    #z{
+        display: block;
+    }
+    .one{
+        height: 190px;
+    }
+}
+
+@media (max-width:490px){
+    .partB_1_1 {
+        flex-direction: column;
+        justify-content: center;
+    }
+    a{
+        width: 70%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .partC{
+      margin-top: 150px;
+    }
+}
