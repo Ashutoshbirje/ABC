@@ -29,7 +29,7 @@
   .content {
     padding: 24px 24px 24px 12px;
     background-color: rgba(128, 150, 150, 0.117);
-    height: 550px;
+    height: 100vh;
   }
 
   .container_data {
@@ -48,7 +48,7 @@
 
   .partB_1 {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
   }
 
@@ -86,7 +86,6 @@
     background-color: #dc3545;
     border-color: #dc3545;
   }
- 
 
 .partC{
     display: flex;
