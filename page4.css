@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 .a {
   display: flex;
@@ -35,7 +36,7 @@ h2 {
 .content {
   padding:54px 24px 24px 12px;
   background-color: rgba(128, 150, 150, 0.117);
-  height: 500px;
+  height: 100vh;
 }
 .container_data {
   padding:0px 12px;
@@ -50,24 +51,31 @@ h2 {
   display: flex;
   justify-content: center;
   padding: 0px 12px;
-  height: 450px;
+  height: 470px;
 }
 .card{
   display: flex;
   margin-bottom: 24px;
-  flex-basis: 25%;
+  flex-basis: 24%;
   flex-direction: column;
   background-color: #fff;
   border-radius: 4px;
 }
+
 .headline{
   padding: 16px 20px;
   background-color: #fff;
   border-bottom: 0px solid transparent;
 }
-h5{
+
+.fontstyl {
   margin-bottom: 0px;
+  font-size:14.8px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 600px;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
   color: #939ba2;
 }
 
@@ -78,7 +86,6 @@ h5{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
- 
 }
 #s1{
   padding: 0px 12px;
@@ -89,6 +96,12 @@ label{
   display: block;
   color: #6c757d;
   margin-bottom: 4px;
+  font-size:12px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600px;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
   height: 18px;
   width: 100%;
 }
@@ -99,7 +112,7 @@ input{
   background-color: #fff;
   color:#495057;
   padding: 4.8px 13.6px;
-  width: 90%;
+  width: 100%;
 }
 .part3_1{
   display: flex;
@@ -107,9 +120,9 @@ input{
 }
 .part3_1>img{
   border: 1px solid black;
-  border-radius: 4px;
   margin-bottom: 5px;
-  width: 100%;
+  width:100%;
+  flex-basis: 10px;
 }
 #Tag_4{
   width: fit-content;
@@ -123,17 +136,28 @@ input{
   background-color: #dc3545;
   color: #fff;
 }
-.form_B_1{
+.form_A_2{
+  display: block;
+  margin-bottom: 10px;
+}
+.part4{
   display: flex;
   justify-content: center;
-  color: #3b7ddd;
+  align-items: center;
+  color: #52d0e6;
   font-weight: 400px;
   border: 0.8px;
   padding: 4.8px 13.60px;
 }
-.form_B_1>a{
+.part4>a{
   text-decoration: none;
   text-align: center;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600px;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
+  /* line-height: 1.5; */
   white-space: nowrap;
 }
 
