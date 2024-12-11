@@ -36,7 +36,7 @@ h2 {
 .content {
   padding:54px 24px 24px 12px;
   background-color: rgba(128, 150, 150, 0.117);
-  height: 100vh;
+  height: 80vh;
 }
 .container_data {
   padding:0px 12px;
@@ -114,6 +114,14 @@ input{
   padding: 4.8px 13.6px;
   width: 100%;
 }
+
+.one>p {
+  margin-top: 8px;
+  color: #495057;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+
 .part3_1{
   display: flex;
   flex-direction: column;
@@ -124,11 +132,15 @@ input{
   width:100%;
   flex-basis: 10px;
 }
+.part3_2{
+  margin-top: 12px;
+}
 #Tag_4{
+  text-decoration: none;
   width: fit-content;
   line-height: 14px;;
   color:#dc3545;
-  margin: 0px;
+
   padding: 3.2px 8px;
   border: 1px solid #dc3545;
 }

@@ -29,11 +29,18 @@
   .content {
     padding: 24px 24px 24px 12px;
     background-color: rgba(128, 150, 150, 0.117);
-    height: 100vh;
+    height: 70vh;
   }
 
   .container_data {
     padding: 0px 12px;
+  }
+
+  .one>p {
+    margin-top: 8px;
+    color: #495057;
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
   }
 
   .partA {
