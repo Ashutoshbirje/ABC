@@ -267,7 +267,7 @@
 }
 
 @media screen and (max-width: 480px) {
-  
+
   .container{
     flex-direction: column;
   }
@@ -278,8 +278,9 @@
 
   .dropdown-toggle {
     width: 100%;
-    font-size: 12px;
+    font-size: 14px;
     justify-content: flex-end;
+    padding-right: 0px;
   }
 
   .dropdown-menu {
