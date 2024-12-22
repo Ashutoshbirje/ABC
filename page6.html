@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>HI</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Result </title>
+    <link rel="stylesheet" href="./page7.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script>
+      function call() {
+        const textElement = document.getElementById("left");
+        if (textElement.style.display === "none" || textElement.style.display === "") {
+            textElement.style.display = "block";
+        } else {
+            textElement.style.display = "none";
+        }
+    }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="left" class="sidebar">
+            <!-- side bar -->
+          <div class="logo">
+              <img src="./xj2.jpg" alt="Logo">
+              <span>WCOE</span>
+          </div>
+          <ul>
+              <li><div class="icons"><i class="fas fa-home"></div></i><span>Dashboard</span></li>
+              <li><div class="icons"><i class="fas fa-user"></div></i><span>Profile</span></li>
+              <li><div class="icons"><i class="fas fa-book"></div></i><span>Program</span></li>
+              <li><div class="icons"><i class="fas fa-clipboard"></div></i><span>Exam Forms</span></li>
+              <li><div class="icons"><i class="fas fa-file-alt"></div></i><span>Grade Cards</span></li>
+              <li><div class="icons"><i class="fas fa-chart-bar"></div></i><span>Results</span></li>
+              <li><div class="icons"><i class="fas fa-ticket-alt"></div></i><span>Halltickets</span></li>
+              <li><div class="icons"><i class="fas fa-cogs"></div></i><span>Student Services</span></li>
+              <li><div class="icons"><i class="fas fa-wallet"></div></i><span>Payments</span></li>
+              <li><div class="icons"><i class="fas fa-sign-out-alt"></div></i><span>Enrollment Renewal</span></li>
+          </ul>
+      </div>
+      <div class="right">
+        <div class="a">
+          <div class="one" onclick="call()">
+            <i class="fas fa-bars custom-icon"></i>
+          </div>
+          <div class="two">
+            <div class="dropdown">
+              <div class="dropdown-toggle">
+                  ASHUTOSH BIRJE <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="dropdown-menu">
+                  <a href="#"><div class="tag"><i class="fas fa-user"></div></i> Profile</a>
+                  <a href="./index.html"><div class="tag"><i class="fas fa-power-off"></div></i> Log out</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <iframe src="./page8.html" frameborder="0"></iframe>
+      </div>
+    </div>
+  </body>
 </html>
